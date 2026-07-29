@@ -5,12 +5,14 @@ import Workflow from "../../components/home/Workflow";
 import TechStack from "../../components/home/TechStack";
 import CTA from "../../components/home/CTA";
 import Footer from "../../components/layout/Footer";
+import Stats from "../../components/home/Stats";
 
 export default function Home() {
   return (
     <>
       <Navbar />
       <Hero />
+      <Stats/>
       <Features />
       <Workflow />
       <TechStack />
@@ -18,4 +20,4 @@ export default function Home() {
       <Footer />
     </>
   );
-}
+} 
